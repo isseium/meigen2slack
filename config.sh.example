@@ -1,0 +1,7 @@
+# Config ファイル
+# 
+# $ cp config.sh{.example,}
+
+slack_token="This is your token"
+slack_notification_channel="#general"
+slack_username="今日の名言"
