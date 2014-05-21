@@ -25,7 +25,7 @@ slack に投稿されたことを確認します
 
 毎朝8時に起動
 
-> 00 08 * * * /bin/sh /home/issei/script/meigen2slack.sh
+> 00 08 * * * /bin/sh /home/path/to/meigen2slack.sh
 
 
 # License
