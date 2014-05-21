@@ -1,10 +1,5 @@
 #!/bin/sh
 
-# meigen.sh # 実行方法
-# $ meigen.sh meigen.list
-#
-# meigen.list : 名言リスト
-
 # Slack 設定
 source ./config.sh
 
