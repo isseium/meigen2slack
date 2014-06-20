@@ -7,17 +7,23 @@
 ### config.sh の準備
 
 テンプレートファイルがあるのでコピーします
-> $ cp config.sh.example config.sh
+<pre>
+$ cp config.sh.example config.sh
+</pre>
 
 config.sh の設定をします
 
-> slack_token="xoxp-2221803702-xxxxxxxxxxxxxxxxxx"      # Slack の API Key
-> slack_notification_channel="#general"                 # 投稿したいチャンネル
-> slack_username="今日の名言"                           # 投稿者名
+<pre>
+slack_token="xoxp-2221803702-xxxxxxxxxxxxxxxxxx"      # Slack の API Key
+slack_notification_channel="#general"                 # 投稿したいチャンネル
+slack_username="今日の名言"                           # 投稿者名
+</pre>
 
 ### 試しに実行してみる
 
-> $ sh meigen2slack.sh
+<pre>
+$ sh meigen2slack.sh
+</pre>
 
 slack に投稿されたことを確認します
 
@@ -25,8 +31,9 @@ slack に投稿されたことを確認します
 
 毎朝8時に起動
 
-> 00 08 * * * /bin/sh /home/path/to/meigen2slack.sh
-
+<pre>
+00 08 * * * /bin/sh /home/path/to/meigen2slack.sh
+</pre>
 
 # License
 Public Lisence
